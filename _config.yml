@@ -9,8 +9,8 @@
 locale                   : "en-US"
 title                    : "Ananth Jonnavittula"
 title_separator          : "-"
-name                     : "Ananth Jonnavittula (AJ)"
-description              : "Graduate Student at Virginia Tech"
+name                     : &name "Ananth Jonnavittula (AJ)"
+description              : &description "personal description"
 url                      : https://ajonnavittula.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ajonnavittula/ajonnavittula.github.io"
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : ananthjonna
+  username               : &twitter "ananthjonna"
 facebook:
   username               :
   app_id                 :
