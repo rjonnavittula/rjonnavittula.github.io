@@ -15,5 +15,5 @@ My current research is in the areas of Robot Learning and Human Robot Interactio
 
 # News
 
--[11/15/2021] I passed my qualifiers! 
--[9/30/2021] My paper Learning to Share Autonomy across Repeated Interactions is a Best RoboCup Paper Finalist at (IROS). 
+- [11/15/2021] I passed my qualifiers! 
+- [9/30/2021] My paper Learning to Share Autonomy across Repeated Interactions is a Best RoboCup Paper Finalist at IROS. 
