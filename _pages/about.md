@@ -13,7 +13,7 @@ Prior to joining Virginia Tech, I was employed as a Robotics Engineer at Parker 
 
 My current research is in the areas of Robot Learning and Human Robot Interaction.
 
-###News
+# News
 
 [11/15/2021] I passed my qualifiers! 
 
