@@ -5,10 +5,51 @@ permalink: /publications/
 author_profile: true
 ---
 
-You can also find my articles on <u><a href="https://scholar.google.com/citations?hl=en&user=58qJf0UAAAAJ&view_op=list_works&alert_preview_top_rm=2&authuser=1&sortby=pubdate">my Google Scholar profile</a>.</u>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-{% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
+<style>
+  .btn {
+  background-color: #A0D4A4;
+  color: white;
+  padding: 0px 4px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 6px
+  }
+  .btn:hover {
+      background-color: #999;
+  }
+</style>
+
+<p>You can also find my articles on <u><a href="https://scholar.google.com/citations?hl=en&user=58qJf0UAAAAJ&view_op=list_works&alert_preview_top_rm=2&authuser=1&sortby=pubdate">my Google Scholar profile</a>.</u> </p>
+
+{% for year in site.data.years %}
+<h2>{{ year }}</h2>
+<div>
+  <table>
+    {% for paper in site.data.publications %}
+    {% if paper.year == year %}
+    <tr>
+      <td>
+        <h4>{{ paper.title }}</h4>
+	      <small>{{ paper.authors }}<br>
+        <i>{{ paper.venue }}</i><br>
+        {% if paper.note.size > 0 %}
+    	    {{ paper.note }}<br>
+    	  {% endif %}
+        {% if paper.pdf.size > 0 %}
+        <a href="{{ paper.pdf }}" style="text-decoration:none;"><button class="btn">
+          <i class="fa fa-puzzle-piece"></i> Read Paper</button></a>
+        {% endif %}</small>
+      </td>
+      <td style="vertical-align:middle; width:30%;">
+        <center><img src="{{ paper.figure }}" style="max-height:200px; border-radius:10px;" /></center>
+      </td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </table>
+</div>
 {% endfor %}
