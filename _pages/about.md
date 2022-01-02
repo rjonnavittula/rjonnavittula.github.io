@@ -12,3 +12,9 @@ I am a second year PhD student in the Mechanical Engineering department at Virgi
 Prior to joining Virginia Tech, I was employed as a Robotics Engineer at Parker Hannifin Corp. and before that I received my MS in Robotics Engineering from the Worcester Polytechnic Institute (WPI), MA.
 
 My current research is in the areas of Robot Learning and Human Robot Interaction.
+
+###News
+
+[11/15/2021] I passed my qualifiers! 
+
+[11/15/2021] I passed my qualifiers! 
