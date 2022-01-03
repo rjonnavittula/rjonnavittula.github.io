@@ -28,17 +28,17 @@ author_profile: true
 {% for year in site.data.years %}
 <h2>{{ year }}</h2>
 <div>
-  <table>
+<!--   <table> -->
     {% for paper in site.data.publications %}
     {% if paper.year == year %}
     <tr>
       <td>
         <h4>{{ paper.title }}</h4>
-	      <small>{{ paper.authors }}<br>
+          <small>{{ paper.authors }}<br>
         <i>{{ paper.venue }}</i><br>
         {% if paper.note.size > 0 %}
-    	    {{ paper.note }}<br>
-    	  {% endif %}
+            {{ paper.note }}<br>
+          {% endif %}
         {% if paper.pdf.size > 0 %}
         <a href="{{ paper.pdf }}" style="text-decoration:none;"><button class="btn">
           <i class="fa fa-puzzle-piece"></i> Read Paper</button></a>
@@ -50,6 +50,6 @@ author_profile: true
     </tr>
     {% endif %}
     {% endfor %}
-  </table>
+<!--   </table> -->
 </div>
 {% endfor %}
