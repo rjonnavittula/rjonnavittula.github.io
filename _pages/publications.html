@@ -23,12 +23,12 @@ author_profile: true
   }
 </style> -->
 
-<p>You can also find my articles on <u><a href="https://scholar.google.com/citations?hl=en&user=58qJf0UAAAAJ&view_op=list_works&alert_preview_top_rm=2&authuser=1&sortby=pubdate">my Google Scholar profile</a>.</u> </p>
+<p>You can also find my publications on <u><a href="https://scholar.google.com/citations?hl=en&user=58qJf0UAAAAJ&view_op=list_works&alert_preview_top_rm=2&authuser=1&sortby=pubdate">my Google Scholar profile</a>.</u> </p>
 
 {% for year in site.data.years %}
 <h2>{{ year }}</h2>
 <div>
-<!--   <table> -->
+  <table>
     {% for paper in site.data.publications %}
     {% if paper.year == year %}
     <tr>
@@ -41,7 +41,7 @@ author_profile: true
           {% endif %}
         {% if paper.pdf.size > 0 %}
         <a href="{{ paper.pdf }}" style="text-decoration:none;"><button class="btn">
-          <i class="fa fa-puzzle-piece"></i> Read Paper</button></a>
+          Read Paper</button></a>
         {% endif %}</small>
       </td>
       <td style="vertical-align:middle; width:30%;">
@@ -50,6 +50,6 @@ author_profile: true
     </tr>
     {% endif %}
     {% endfor %}
-<!--   </table> -->
+  </table>
 </div>
 {% endfor %}
