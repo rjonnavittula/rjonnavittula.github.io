@@ -6,7 +6,7 @@
   pdf: /_publications/soheil_thri2021.pdf
   figure: /images/publications/soheil_thri2021.png
 
-  - title: "Learning to share autonomy across repeated interaction"
+- title: "Learning to share autonomy across repeated interaction"
   authors: Ananth Jonnavittula, Dylan P. Losey
   venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
   year: 2021
@@ -14,7 +14,7 @@
   pdf: /_publications/ananth_iros2021.pdf
   figure: /images/publications/ananth_icra2021.png
 
-  - title: "I know what you meant: Learning human objectives by (under)estimating their choice set"
+- title: "I know what you meant: Learning human objectives by (under)estimating their choice set"
   authors: Ananth Jonnavittula, Dylan P. Losey
   venue: "IEEE International Conference on Robotics and Automation (ICRA)"
   year: 2021
