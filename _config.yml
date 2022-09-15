@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Radha Krishna Jonnavittula"
 title_separator          : "-"
-name                     : &name "Radha Krishna Jonnavittula (AJ)"
+name                     : &name "Radha Krishna Jonnavittula (RK)"
 description              : &description "personal description"
 url                      : https://rjonnavittula.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
