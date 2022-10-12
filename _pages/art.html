@@ -17,12 +17,13 @@ author_profile: true
     {% for sketch in site.data.art %}
     {% if sketch.year == year %}
     <tr>
-        <td style="vertical-align:middle; width:20%;">
+        <td style="vertical-align:middle; width:100%;">
         <h4>{{ sketch.title }}</h4>
+        <center><img src="{{ sketch.figure }}" style="max-height:400px; border-radius:10px;" /></center>
       </td>
-      <td style="vertical-align:middle; width:100%;">
-        <center><img src="{{ sketch.figure }}" style="max-height:200px; border-radius:10px;" /></center>
-      </td>
+      <!-- <td style="vertical-align:middle; width:100%;">
+        
+      </td> -->
     </tr>
     {% endif %}
     {% endfor %}
