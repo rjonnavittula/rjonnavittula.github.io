@@ -1,0 +1,32 @@
+---
+layout: archive
+title: "art"
+permalink: /art/
+author_profile: true
+---
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<p>Some of sketches. All sketches we done digitally on the Apple iPad.</p>
+
+{% for year in site.data.years %}
+<h2>{{ year }}</h2>
+<div>
+  <table>
+    {% for sketch in site.data.art %}
+    {% if sketch.year == year %}
+    <tr>
+      <td>
+        <h4>{{ sketch.title }}</h4>
+          {% endif %}
+      </td>
+      <td style="vertical-align:middle; width:30%;">
+        <center><img src="{{ sketch.figure }}" style="max-height:200px; border-radius:10px;" /></center>
+      </td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </table>
+</div>
+{% endfor %}
