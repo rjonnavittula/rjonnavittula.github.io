@@ -1,14 +1,38 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Projects"
 permalink: /portfolio/
-author_profile: true
+author_profile: false
 ---
 
-{% include base_path %}
+I build AI systems that combine models with the infrastructure around them: evaluation, agents, document pipelines, APIs, self-hosting, and multimodal machine learning.
 
+## Selected projects
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+### HIVE Scholar
 
+A self-hosted planning and learning backend built with FastAPI, Postgres, Docker, API-key authentication, LMS ingestion, and deadline-aware scheduling logic. The project is designed as an automation-ready backend for student productivity and learning workflows.
+
+[View HIVE Scholar on GitHub](https://github.com/rjonnavittula/hive-scholar)
+
+### InjecAgent — Local Model & Evaluation Experiments
+
+Experiments around indirect prompt-injection attacks against tool-integrated LLM agents, including local-model runs and parallel evaluation workflows. This work builds on the InjecAgent benchmark and focuses on practical agent-security evaluation rather than claiming authorship of the original benchmark.
+
+[View the experiments on GitHub](https://github.com/rjonnavittula/InjecAgent)
+
+### Forge — Self-Hosted AI Infrastructure
+
+A self-hosted LLM environment built around Ollama, Proxmox, Docker/LXC, GPU acceleration, networking, and ZFS-backed persistent storage. The goal is to make local model serving reliable enough to support real applications and experimentation.
+
+### WatchBot — Computer Vision for Student Engagement
+
+An early computer-vision system for analyzing student engagement during online learning. The project used OpenCV, facial analysis, and a CNN-based mood classifier with real-time lecture monitoring.
+
+## Research
+
+My research has included multimodal behavior analysis, model training and evaluation, eye-tracking, facial-expression analysis, and visual-spatial analytics. I am a co-author of a 2025 IISE Conference and Expo publication on measuring student attentiveness using eye-tracking and visual-spatial data.
+
+## What I want to build next
+
+I am especially interested in agent evaluation, local-model performance, multimodal document intelligence, AI infrastructure, and production systems where reliability and measurable quality matter as much as the model itself.
