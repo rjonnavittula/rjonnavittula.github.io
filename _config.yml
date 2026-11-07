@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Radha Krishna Jonnavittula"
+title                    : "Radhakrishna Jonnavittula"
 title_separator          : "-"
-name                     : &name "Radha Krishna Jonnavittula (RK)"
-description              : &description "personal description"
+name                     : &name "Radhakrishna Jonnavittula"
+description              : &description "Penn State Computer Science student building AI agents, ML systems, and software tools"
 url                      : https://rjonnavittula.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rjonnavittula/rjonnavittula.github.io"
@@ -80,10 +80,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Radha Krishna Jonnavittula"
+  name             : "Radhakrishna Jonnavittula"
   avatar           : "profile.png"
-  bio              : "High School Senior"
-  location         : "Hyderabad, India"
+  bio              : "Computer Science at Penn State | AI Agents, Machine Learning, and Systems"
+  location         : "University Park, PA"
   employer         : 
   pubmed           : 
   googlescholar    : 
